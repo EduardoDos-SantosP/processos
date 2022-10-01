@@ -81,6 +81,7 @@ public class Processo {
                 "pid=" + pid +
                 ", estado=" + estado +
                 ", tempo=" + tempo +
+                ", cp=" + (tempo + 1) +
                 ", usosES=" + usosES +
                 ", usosCpu=" + usosCpu +
                 '}';
